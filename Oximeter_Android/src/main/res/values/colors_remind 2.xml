@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="more_remind_add">#EFEFF4</color>     
+    <color name="alarm_line">#E7E7E7</color>
+    <color name="alarm_add_press">#d7d7d9</color>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_family_add_member">请选择一位家庭成员</string>
+    <string name="special_symbols">昵称含有特殊字符，请重新修改后再提交</string>
+</resources>

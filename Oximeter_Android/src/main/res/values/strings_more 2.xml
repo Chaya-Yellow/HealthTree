@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="more_unit_c">℃ </string>
+    <string name="more_unit_h"> / </string>
+    <string name="more_unit_f">°F</string>
+    <string name="more_unit_height_cm">cm</string>
+    <string name="more_unit_height_in">in</string>
+    <string name="more_unit_weight_kg">kg</string>
+    <string name="more_unit_weight_lb">lb</string>
+    <string name="more_unit_hight">Height unit</string>
+    <string name="more_unit_weight">Weight unit</string>
+    <string name="more_alter_passworld"> change the password </string>
+    <string name="more_exit"> Log out </string>
+    <string name="more_exiting"> Exiting </string>
+    <string name="more_exit_suceed"> Logout success </string>
+    <string name="more_exit_fail"> Logout fail </string>
+
+    <string name="more_alter_pwd_success"> Modified successfully </string>
+    <string name="more_alter_pwd_Failure"> Modify failed </string>
+    <string name="more_alter_pwd"> Password must be the same </string>
+    <string name="more_alter_pwd_same"> The new password is the same with the old password </string>
+</resources>

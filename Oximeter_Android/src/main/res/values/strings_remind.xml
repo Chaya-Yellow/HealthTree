@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_record_bt_top_date">March 2014</string>
+    <string name="alarm_add_d0"> Sun </string>
+    <string name="alarm_add_d1"> Mon </string>
+    <string name="alarm_add_d2"> Tue </string>
+    <string name="alarm_add_d3"> Wed </string>
+    <string name="alarm_add_d4"> Thu </string>
+    <string name="alarm_add_d5"> Fri </string>
+    <string name="alarm_add_d6"> Sat </string>
+</resources>

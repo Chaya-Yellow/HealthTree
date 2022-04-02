@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="more_unit_c">℃</string>
+    <string name="more_unit_h">/</string>
+    <string name="more_unit_f">°F</string>
+    <string name="more_unit_height_cm">厘米</string>
+    <string name="more_unit_height_in">英寸</string>
+    <string name="more_unit_weight_kg">公斤</string>
+    <string name="more_unit_weight_lb">磅</string>
+    <string name="more_unit_hight">身高单位</string>
+    <string name="more_unit_weight">体重单位</string>
+    <string name="more_alter_passworld">修改密码</string>
+    <string name="more_exit">退出登录</string>
+    <string name="more_exiting">注销中</string>
+    <string name="more_exit_suceed">注销成功</string>
+    <string name="more_exit_fail">注销失败</string>
+    <string name="more_alter_pwd_success">修改成功</string>
+    <string name="more_alter_pwd_Failure">修改失败</string>
+    <string name="more_alter_pwd">密码必须一致</string>
+    <string name="more_alter_pwd_same"> 新密码与旧密码已经相同 </string>
+</resources>

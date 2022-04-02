@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HealthTree</string>
+    <string name="language">0</string>
+    <string name="device_name">智能血氧仪</string>
+    <string name="user_login_account_hint"> 邮箱地址 </string>
+    <string name="user_login_password_hint"> 密码 </string>
+    <string name="user_login_confirm_password_hint"> 确认密码 </string>
+    <string name="user_login_btn_login"> 登录 </string>
+    <string name="user_login_btn_register"> 注册 </string>
+    <string name="user_login_tv_tx1"> 忘记密码?</string>
+    <string name="scaning_device">搜索设备中...</string>
+    <string name="authority_device">没有获取到连接蓝牙权限</string>
+    <string name="connecting_device">连接设备中</string>
+    <string name="pleth">Pleth</string>
+    <string name="pr_null">---</string>
+    <string name="heart">❤</string>
+    <string name="bpm">bpm</string>
+    <string name="percent_unit">%</string>
+    <string name="pr">PR</string>
+    <string name="PI_display">PI&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%</string>
+    <string name="resp_display">Resp&#160;&#160;&#160;&#160;&#160;&#160;rpm</string>
+    <string name="serial_number">序列号</string>
+    <string name="spo2">SpO2</string>
+    <string name="two_null">--</string>
+    <string name="PI_null">-.-</string>
+    <string name="device_info">设备信息</string>
+    <string name="device_name_detail">设备名</string>
+    <string name="type">型号</string>
+    <string name="main_version">主固件版本</string>
+    <string name="sub_version">从固件版本</string>
+    <string name="spo2_with_unit">SpO2(%)</string>
+    <string name="hr_with_unit">PR(bpm)</string>
+    <string name="app_version">版本</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="choose_device">选择设备</string>
+    <string name="history">历史回顾</string>
+    <string name="history_title">历史数据</string>
+    <!--<string name="history_tody">今天</string>-->
+    <string name="history_tody">导出</string>
+    <string name="export">导出</string>
+    <string name="settings">设置</string>
+    <string name="time">时间</string>
+    <string name="version_display">V1.0</string>
+    <string name="brand">品牌</string>
+    <string name="brand_weikang">微康</string>
+    <string name="about">关于</string>
+    <string name="device_connected">设备已连接</string>
+    <string name="device_disconnected">连接已断开</string>
+    <string name="bluetooth_off">系统蓝牙未开启</string>
+    <string name="sleep">睡眠监测 </string>
+    <string name="checknet_login">必须连接网络才能登录</string>
+    <string name="user_login_password_error_tips">输入的密码含有特殊字符，请重新设置</string>
+    <string name="mail_format_is_incorrect"> 邮箱格式不正确</string>
+    <string name="user_password_tip3">输入的密码不一致</string>
+    <string name="user_error_password_input_char_error">输入的密码含有特殊字符，请重新输入</string>
+    <string name="user_error_password_combination_error">密码必须由6到30位字母和数字组合，请重新输入</string>
+    <string name="more_user_management_add_user_sd">没有sd卡</string>
+    <string name="first_list_agestr">岁</string>
+    <string name="more_user_management_add_user_gender_female">女</string>
+    <string name="more_user_management_add_user_gender_male">男</string>
+    <string name="more_setting_height_inch">英寸</string>
+    <string name="more_setting_height_cm">厘米</string>
+    <string name="system_setting_unit_mmol">mmol/L</string>
+    <string name="system_setting_unit_mg"> mg/dL </string>
+    <string name="more_hint">请选择</string>
+    <string name="shear_figure_fail">剪图失败</string>
+
+    <!-- titleBar -->
+    <string name="title_back">返回</string>
+
+    <string name="activity_user_register_success">注册成功，请查看邮箱激活账号</string>
+    <string name="check_email"> 邮件已发送, 请查看邮箱激活账号 </string>
+    <string name="check_forget_email"> 邮件已发送 </string>
+    <string name="check_forget_email_fail"> 邮件发送失败 </string>
+    <string name="check_email_verified"> 未验证 </string>
+    <string name="check_email_detail"> (如果邮件APP没接收到邮件, 可以前往浏览器登录邮箱) </string>
+    <string name="user_login_suceed">登录成功</string>
+    <string name="user_login_failure">登录失败</string>
+
+    <string name="pull_to_refresh_tap_label">点击刷新...</string>
+    <string name="pull_to_refresh_laster"> 最近更新: </string>
+    <string name="pull_down_refresh"> 下拉刷新 </string>
+    <string name="release_to_refresh"> 松开刷新 </string>
+    <string name="pull_refreshing"> 正在刷新... </string>
+
+    <!--dialog-->
+    <string name="dialog_title_delete">你确定要删除吗?</string>
+    <string name="eliminate">清除</string>
+
+    <string name="login_pwd">旧密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="confirm_pwd">确认密码</string>
+    <!-- 用户分享 -->
+    <string name="data_share" >数据分享</string>
+    <string name="last_week" >最近一周</string>
+    <string name="last_threeweek" >最近三周</string>
+    <string name="last_month" >最近一月</string>
+    <string name="last_year" >最近一年</string>
+    <string name="start_date" >开始时间</string>
+    <string name="end_date" >结束时间</string>
+
+    <string name="o_k" >确认</string>
+    <string name="please_choose_the_date">请选择时间</string>
+    <string name="custom_date">自定义日期</string>
+    <string name="blood_pressure_trend">血压趋势</string>
+    <string name="blood_pressure_statistics">血压统计</string>
+
+    <string name="guide_get_started">开始</string>
+    <string name="remind_toolbar_txt">报警设置</string>
+    <string name="remind_sp_tip_txt">血氧饱和度</string>
+    <string name="remind_sp_h_txt">血氧饱和度 上阈值</string>
+    <string name="remind_sp_l_txt">血氧饱和度 下阈值</string>
+    <string name="remind_pr_tip_txt">脉搏率</string>
+    <string name="remind_pr_h_txt">脉搏率 上阈值</string>
+    <string name="remind_pr_l_txt">脉搏率 下阈值</string>
+    <string name="remind_pi_tip_txt">血流灌注指数</string>
+    <string name="remind_pi_h_txt">血流灌注指数 上阈值</string>
+    <string name="remind_pi_l_txt">血流灌注指数 下阈值</string>
+    <string name="bluetooth_permission_tip">我们需要获取位置权限才可以使用您手机的蓝牙，是否去设置？</string>
+    <string name="export_fail">导出失败</string>
+    <string name="bluetooth_init_fail_tip">蓝牙初始化失败，请尝试重启应用。</string>
+    <string name="ble_service_running">正在运行</string>
+    <string name="press_again_exit_app_tip">再按一次退出程序</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_family_add_member"> Choose one family member </string>
+    <string name="special_symbols">The name contains special characters, please submit after revise.</string>
+</resources>

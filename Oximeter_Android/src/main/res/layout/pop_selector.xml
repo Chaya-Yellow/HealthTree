@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dismiss"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/pop_select_device_white_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/pop_view_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/pop_title"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <include
+            android:id="@+id/add_user_Data_list3"
+            layout="@layout/activity_user_add_list1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/eliminate"
+                style="@style/popup_shentibushi_text"
+                android:layout_width="80dp"
+                android:text="@string/eliminate"
+                android:textColor="@drawable/sel_red_white" />
+
+            <TextView
+                android:id="@+id/user_register_dialog_btn_sure"
+                style="@style/popup_shentibushi_text"
+                android:layout_width="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:text="@string/btn_ok"
+                android:textColor="@drawable/sel_red_white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_now">Download now</string>
+    <string name="downloaded">Install immediately (downloaded)</string>
+    <string name="later">later</string>
+    <string name="version_update">Version update</string>
+    <string name="downloading">Downloading</string>
+</resources>

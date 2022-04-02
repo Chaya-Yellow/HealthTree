@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgBlue4"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/add_user_linearlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    style="@style/family_layout1"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="@color/alarm_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_more_user_management_add_user_portrait"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <TextView
+                            style="@style/more_tv_black_user"
+                            android:textColor="@color/textWhite"
+                            android:text="@string/first_family_add_user_portrait" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/more_iv_add_user_image"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/avatar_default"
+                            android:scaleType="fitXY" />
+                            <!--使用中心透明图片来实现圆形头像
+                                android:src="@drawable/more_user_image_out_white"
+                            -->
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="15dp"
+                        android:background="@color/alarm_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_more_user_management_add_user_username"
+                        style="@style/more_layout3_user"
+                        android:background="@drawable/bg_listitem_full_white_sl">
+
+                        <TextView
+                            style="@style/more_tv_black_user"
+                            android:textColor="@color/textWhite"
+                            android:text="@string/first_family_add_user_username" />
+
+                        <EditText
+                            android:id="@+id/et_more_user_management_add_user_username"
+                            style="@style/more_tv_gray"
+                            android:background="@color/transparent"
+                            android:ellipsize="end"
+                            android:hint="@string/first_family_add_user_username_hint"
+
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="15dp"
+                        android:background="@color/alarm_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_more_user_management_add_user_gender"
+                        style="@style/more_layout3_user"
+                        android:background="@drawable/bg_listitem_full_white_sl" >
+
+                        <TextView
+                            style="@style/more_tv_black_user"
+                            android:textColor="@color/textWhite"
+                            android:text="@string/first_family_add_user_gender" />
+
+                        <TextView
+                            android:id="@+id/tv_more_user_management_add_user_gender"
+                            style="@style/more_tv_gray" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="15dp"
+                        android:background="@color/alarm_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_more_user_management_add_user_birthday"
+                        style="@style/more_layout3_user"
+                        android:background="@drawable/bg_listitem_full_white_sl" >
+
+                        <TextView
+                            style="@style/more_tv_black_user"
+                            android:textColor="@color/textWhite"
+                            android:text="@string/first_family_add_user_birthday" />
+
+                        <TextView
+                            android:id="@+id/tv_more_user_management_add_user_birthday"
+                            style="@style/more_tv_gray" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="15dp"
+                        android:background="@color/alarm_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_more_user_management_add_user_height"
+                        style="@style/more_layout3_user"
+                        android:background="@drawable/bg_listitem_full_white_sl" >
+
+                        <TextView
+                            style="@style/more_tv_black_user"
+                            android:textColor="@color/textWhite"
+                            android:text="@string/first_family_add_user_height" />
+
+                        <TextView
+                            android:id="@+id/tv_more_user_management_add_user_height"
+                            style="@style/more_tv_gray" />
+
+                        <TextView
+                            android:id="@+id/tv_more_user_management_add_user_height_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/more_setting_height_cm"
+                            android:textColor="@color/record_top_tv_gray"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:layout_marginLeft="15dp"
+                        android:background="@color/alarm_line" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_more_user_management_add_user_weight"
+                        style="@style/more_layout3_user"
+                        android:background="@drawable/bg_listitem_full_white_sl" >
+
+                        <TextView
+                            style="@style/more_tv_black_user"
+                            android:textColor="@color/textWhite"
+                            android:text="@string/first_family_add_user_weight" />
+
+                        <TextView
+                            android:id="@+id/tv_more_user_management_add_user_weight"
+                            style="@style/more_tv_gray" />
+
+                        <TextView
+                            android:id="@+id/tv_more_user_management_add_user_weight_unit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/first_family_add_weight_kilogram"
+                            android:textColor="@color/record_top_tv_gray"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="1px"
+                        android:background="@color/alarm_line" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        style="@style/UserLinearLayoutStyle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_user_login_sure"
+            style="@style/userButtonNextStyle"
+            android:textColor="@color/textWhite"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

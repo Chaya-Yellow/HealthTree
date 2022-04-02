@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="logining"> 正在登录... </string>
+    <string name="user_login_title_register"> 注册 </string>
+    <string name="user_register_phone_null"> 手机号码不能为空 </string>
+    <!-- user_register -->
+    <string name="user_register_btn_next">下一步</string>
+    <string name="user_register_dialog_tv_title">发送验证码</string>
+    <string name="user_register_dialog_tv_content">我们将发送验证码到：</string>
+    <string name="user_register_dialog_btn_login">登录</string>
+    <string name="user_register_phone_error">您输入的手机号有误，请重新输入</string>
+    <string name="processing">正在处理...</string>
+
+    <!--forget password-->
+    <string name="Login_Get_Verfication_Code"> 获取邮箱验证信息 </string>
+
+    <string name="altering">正在修改...</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3acf8c</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundDark">#253047</color>
+    <color name="backgroundAlpha">#00000000</color>
+    <color name="backgroundLight">#384562</color>
+    <color name="background_light_ops">#78384562</color>
+    <color name="grid">#515a6b</color>
+    <color name="action_bar">#3acf8c</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#41609f</color>
+    <color name="red">#a14a70</color>
+    <color name="green">#417c93</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 半透明 -->
+    <color name="transparent_a1">#a1000000</color>
+
+    <!-- 字体颜色 -->
+    <color name="textGrayC3">#c3c3c3</color>
+    <color name="textGray5F">#5F646E</color>
+    <color name="textGrayCF">#cfd0d3</color>
+    <color name="textGray93">#93969b</color>
+    <color name="textBlack">#373737</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="textGray">#B6B6B6</color>
+    <color name="tv_gray_b3">#b3b3b3</color>
+    <color name="textGray3">#9d9d9d</color>
+    <color name="textRed">#da2a2a</color>
+    <color name="textGreen">#8CB511</color>
+    <color name="textBlue">#238fdc</color>
+    <color name="textGay1">#0e0e0e</color>
+    <color name="tv_gray_a3">#a3a3a3</color>
+    <color name="textCyanine">#59b9c6</color>
+    <color name="textBlack3D">#3d4245</color>
+    <color name="textWhiteFF">#88FFFFFF</color>
+    <color name="textGray7A">#7a7a7a</color>
+    <color name="textYellow">#FFFFFF00</color>
+
+    <!-- 背景红 -->
+    <color name="bgRed">#F547B6</color>
+    <color name="bgRed2">#F64887</color>
+    <color name="bgRed3">#ed216b</color>
+    <!-- 背景蓝 -->
+    <color name="bgBlue">#003366</color>
+    <color name="bgBlue1">#3366CC</color>
+    <color name="bgBlue2">#003399</color>
+    <color name="bgBlue3">#333399</color>
+    <color name="bgBlue4">#2F3E69</color>
+
+    <!-- 分割线_or_line -->
+    <color name="line_white">#FFFFFF</color>
+    <color name="line_gray">#b2b2b2</color>
+    <color name="line_divider_gray">#dedede</color>
+    
+    <color name="calendarBg">#333399</color>
+
+    <!--dialog颜色-->
+    <color name="dialog_black">#90000000</color>
+    <color name="dialog_gray">#a3a3a3</color>
+    <color name="dialog_blue">#2664b4</color>
+
+    <color name="text_gray">#959595</color>
+
+    <!--背景-->
+    <!-- 主标题 -->
+    <color name="bgTitle">#3F5C9A</color>
+    <!-- 背景白 -->
+    <color name="bgWhite">#FFFFFF</color>
+    <color name="bgWhitealpha">#d5FFFFFF</color>
+    <color name="bgWhitealphagray">#a1FFFFFF</color>
+    <color name="bgBlack">#000000</color>
+
+    <!-- 对话框背景色 -->
+    <!-- 对话框边框色 -->
+    <color name="dialog_bg">#a1ffffff</color>
+    <!-- 对话框字体色 -->
+    <color name="dialog_solid">#f5f5f5</color>
+    <!-- 对话框背景色 -->
+    <color name="pbdialog_bg">#90000000</color>
+
+    <!-- 点击list item变色 -->
+    <color name="bgItemPos">#d7d7d9</color>
+    <color name="main_bg">#eaeaea</color>
+
+    <!-- 背景灰 -->
+    <color name="bgGray">#f0f0f5</color>
+    <color name="bgGray4">#F7F7F7</color>
+    <color name="new_Gray">#a7a29e</color>
+    <color name="new_gules">#ff739f</color>
+
+    <color name="record_top_tv_gray">#928f75</color>
+
+    <!--iosDialog-->
+    <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+
+    <color name="cl_guide_btn">#3acf8c</color>
+    <color name="cl_guide_btn2">#373747</color>
+    <color name="cl_sp02_bg">#98e0c1</color>
+    <color name="cl_sp01_item_bg">#85ddb5</color>
+    <color name="cl_pr_bg">#fddd43</color>
+    <color name="cl_history_f_bg">#98e0c1</color>
+    <color name="cl_history_font">#00cb82</color>
+    <color name="cl_index_font">#45bdb1</color>
+
+</resources>

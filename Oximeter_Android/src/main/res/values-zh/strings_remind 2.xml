@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_record_bt_top_date">2014年3月</string>
+    <string name="alarm_add_d0">周日</string>
+    <string name="alarm_add_d1">周一</string>
+    <string name="alarm_add_d2">周二</string>
+    <string name="alarm_add_d3">周三</string>
+    <string name="alarm_add_d4">周四</string>
+    <string name="alarm_add_d5">周五</string>
+    <string name="alarm_add_d6">周六</string>
+</resources>

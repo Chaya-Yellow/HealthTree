@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Oximeter.iml" filepath="$PROJECT_DIR$/.idea/modules/Oximeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Oximeter.MPChartLib.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Oximeter.MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/refresh/Oximeter.refresh.iml" filepath="$PROJECT_DIR$/.idea/modules/refresh/Oximeter.refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xUtillibrary/Oximeter.xUtillibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/xUtillibrary/Oximeter.xUtillibrary.iml" />
+    </modules>
+  </component>
+</project>

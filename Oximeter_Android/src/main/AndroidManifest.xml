@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jks.Spo2MonitorEx"
+    android:versionCode="12"
+    android:versionName="1.3.0">
+    <!-- 蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions"/>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 读取手机基本信息权限READ_PHONE_STATE，用于精确统计用户的机型等信息(必须) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 获得当前wifi的状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="adnroid.permission.CHANGE_WIFI_STATE"/>
+    <!-- 允许程序接入网络 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 手机打电话权限 -->
+    <!--<uses-permission android:name="android.permission.CALL_PHONE" />-->
+    <!-- 手机震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 读写sd 卡的权限，用于缓存广告所用到的图片，节省流量，并可获得更好的用户体验 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <!-- 接受开机广播 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true"/>
+
+    <application
+        android:name="com.jks.Spo2MonitorEx.util.config.Config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jks.Spo2MonitorEx.app.GuidePage"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/activity_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.LoadPage"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.HistoryActivity"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.SettingsActivity"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.family.FamilyMainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.setting.ManageAcountActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.setting.AddAcountActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.family.AddOrUpdateUserActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.user.UserLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.user.UserRegisterEmailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.user.UserForgetPasswordActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.DeviceDetailActivity"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.AboutActivity"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.SleepActivity"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.SleepReportActivity"
+                  android:launchMode="singleTop"
+                  android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.setting.MoreSetPassworldActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.jks.Spo2MonitorEx.app.Activity.RemindActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+
+        <!--注册service-->
+        <service
+            android:name="com.jks.Spo2MonitorEx.app.Bluetoothle.BluetoothLEService"
+            android:enabled="true"/>
+
+        <service android:name="com.jks.Spo2MonitorEx.util.autoupdate.XdUpdateService"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="522c605504a38e8fd4fa96035de9a319f5d5151f" />
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.jks.Spo2MonitorEx.app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_ok"> Confirmed </string>
+    <string name="checknet_nonet_to_link"> No available network, open GPRS or WIFI network connection </string>
+    <string name="btn_cancel"> Cancel </string>
+    <string name="diagnose_history_prompt_norecord_tv"> No records </string>
+    <string name="listview_loadmore"> More data </string>
+</resources>

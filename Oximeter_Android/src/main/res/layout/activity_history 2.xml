@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:background="@color/bgWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_chart_report_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cl_guide_btn2"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="@string/spo2_pulse_rate_report_title"
+            />
+        <TextView
+            android:id="@+id/tv_chart_report_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_history_chart_report_head_table"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="Max"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="Avg"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="Min"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="Spo2"
+                    />
+                <TextView
+                    android:id="@+id/tv_spo2_max"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="0"
+                    />
+                <TextView
+                    android:id="@+id/tv_spo2_avg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="0"
+                    />
+                <TextView
+                    android:id="@+id/tv_spo2_min"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="0"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="PR"
+                    />
+                <TextView
+                    android:id="@+id/tv_pr_max"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="0"
+                    />
+                <TextView
+                    android:id="@+id/tv_pr_avg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="0"
+                    />
+                <TextView
+                    android:id="@+id/tv_pr_min"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:text="0"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/cl_guide_btn2"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:id="@+id/historyTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/history_title"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/historyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/history_title"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/back_history_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="10dp"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="10dp"
+            android:background="#00ffffff"
+            android:focusable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_button"/>
+
+        <TextView
+            android:id="@+id/history_tody"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:paddingTop="13dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/history_tody"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/calendar_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="115dp"
+        android:background="@drawable/bg_title"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/first_record_bt_top_date"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:textColor="@color/textWhite"
+                android:text="@string/first_record_bt_top_date" />
+        </RelativeLayout>
+        <View
+            android:background="#fff"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/calendar_mon"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d1" />
+
+            <TextView
+                android:id="@+id/calendar_tue"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d2" />
+
+            <TextView
+                android:id="@+id/calendar_wed"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d3" />
+
+            <TextView
+                android:id="@+id/calendar_thu"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d4" />
+
+            <TextView
+                android:id="@+id/calendar_fri"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d5" />
+
+            <TextView
+                android:id="@+id/calendar_sat"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d6" />
+
+            <TextView
+                android:id="@+id/calendar_sun"
+                style="@style/first_record_bt_tv"
+                android:text="@string/alarm_add_d0" />
+        </LinearLayout>
+        <View
+            android:background="#fff"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+        <ViewFlipper
+            android:id="@+id/first_record_bt_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+         >
+
+            <include
+                android:id="@+id/first_record_bt_date_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/record_bt_date_gv" />
+
+            <include
+                android:id="@+id/first_record_bt_date_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/record_bt_date_gv" />
+
+            <include
+                android:id="@+id/first_record_bt_date_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/record_bt_date_gv" />
+        </ViewFlipper>
+
+        <!--<ImageView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="1px"-->
+        <!--android:background="@color/line_divider_gray" />-->
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:background="@color/cl_guide_btn2"/>
+
+
+</LinearLayout>

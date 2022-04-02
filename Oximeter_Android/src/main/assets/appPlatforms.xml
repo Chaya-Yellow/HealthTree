@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appPlatforms>
+    <!--发布到GooglePlay-->
+	<platformInfo>
+		<platform>GooglePlay</platform>
+		<urlzh>http://47.88.25.86:8080/rongtao1/app/update.json</urlzh>
+        <urlen>http://47.88.25.86:8080/rongtao1/app/update_en.json</urlen>
+	</platformInfo>
+
+    <!--发布到应用宝-->
+	<!--<platformInfo>-->
+		<!--<platform>yingyongbao</platform>-->
+		<!--<urlzh>http://47.88.25.86:8080/rongtao1/app/yingyongbao.json</urlzh>-->
+		<!--<urlen>http://47.88.25.86:8080/rongtao1/app/yingyongbao_en.json</urlen>-->
+	<!--</platformInfo>-->
+</appPlatforms>

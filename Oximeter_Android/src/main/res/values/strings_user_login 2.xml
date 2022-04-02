@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="logining"> Logging... </string>
+    <string name="user_login_title_register"> Register </string>
+    <string name="user_register_btn_next"> Next </string>
+    <string name="user_register_dialog_tv_title"> Send code </string>
+    <string name="user_register_dialog_tv_content">We would send the code to: </string>
+    <string name="user_register_phone_null"> Numbers can not be null </string>
+    <string name="user_register_phone_error"> Phone number you entered is incorrect, please re-enter </string>
+    <string name="processing"> Being processed... </string>
+    <string name="user_register_dialog_btn_login"> Login </string>
+    <!--forget password-->
+    <string name="Login_Get_Verfication_Code"> Getting email authentication info </string>
+
+    <string name="altering"> Being modified... </string>
+</resources>

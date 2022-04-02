@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F3E69">
+
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/titlebar" />
+
+
+    <LinearLayout
+        android:id="@+id/register_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/registerpage_logo"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/register_image_tv"
+                android:layout_width="160dp"
+                android:layout_height="144dp"
+                android:background="@drawable/login_logo"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/setting_image_tv"
+                android:gravity="center">
+                <!--<TextView-->
+                    <!--android:id="@+id/loadpagepre_name"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:text="@string/app_name"-->
+                    <!--android:lines="1"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:shadowColor="#ff335824"-->
+                    <!--android:shadowRadius="1"-->
+                    <!--android:shadowDx="1"-->
+                    <!--android:shadowDy="1"-->
+                    <!--android:textColor="@color/textWhite" />-->
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <LinearLayout
+                style="@style/UserLinearLayoutStyle"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/login_email" />
+
+                <com.jks.Spo2MonitorEx.app.Activity.myView.EmailAutoCompleteTextView
+                    android:id="@+id/et_user_register_username"
+                    style="@style/userClearEditTextStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/textWhite"
+                    android:hint="@string/user_login_account_hint"
+                    android:textColorHint="@color/textGrayC3" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/horizon_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="23dp"
+                android:background="@color/line_white"/>
+
+            <LinearLayout
+                style="@style/UserLinearLayoutStyle"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/login_lock" />
+
+                <com.jks.Spo2MonitorEx.app.Activity.myView.ClearEditText
+                    android:id="@+id/et_user_register_password1"
+                    style="@style/UserLinearLayoutStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.+-*/% ()"
+                    android:layout_weight="1"
+                    android:textColor="@color/textWhite"
+                    android:hint="@string/user_login_password_hint"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/textGrayC3" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/horizon_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="23dp"
+                android:background="@color/line_white"/>
+
+            <LinearLayout
+                style="@style/UserLinearLayoutStyle"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/login_lock" />
+
+                <com.jks.Spo2MonitorEx.app.Activity.myView.ClearEditText
+                    android:id="@+id/et_user_register_password2"
+                    style="@style/UserLinearLayoutStyle"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.+-*/% ()"
+                    android:layout_weight="1"
+                    android:textColor="@color/textWhite"
+                    android:hint="@string/user_login_confirm_password_hint"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/textGrayC3" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/horizon_line"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="23dp"
+                android:background="@color/line_white"/>
+
+            <LinearLayout
+                style="@style/UserLinearLayoutStyle"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_user_register_sure"
+                    style="@style/userButtonNextStyle"
+                    android:text="@string/user_login_btn_register" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

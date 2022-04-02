@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="12dip" >
+
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/bgRed2"
+        android:text="@string/family_sex_photo_add_user_photograph"
+        android:textColor="@color/textWhite" />
+
+    <Button
+        android:id="@+id/album"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="15dp"
+        android:background="@color/bgRed2"
+        android:text="@string/family_sex_photo_add_user_albums"
+        android:textColor="@color/textWhite" />
+
+</LinearLayout>

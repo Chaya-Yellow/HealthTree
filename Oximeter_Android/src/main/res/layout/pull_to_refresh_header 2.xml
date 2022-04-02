@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_to_refresh_header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bgBlue4"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--<ProgressBar-->
+            <!--android:id="@+id/pull_to_refresh_progress"-->
+            <!--style="@mipmap/ic"-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_alignBottom="@+id/pull_to_refresh_text"-->
+            <!--android:layout_alignStart="@+id/pull_to_refresh_updated_at"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:indeterminate="true"-->
+            <!--android:indeterminateDrawable="@drawable/device_connectioning_progressbar_bg"-->
+            <!--android:visibility="gone"/>-->
+
+        <ImageView
+            android:id="@+id/pull_to_refresh_progress"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignBottom="@+id/pull_to_refresh_text"
+            android:layout_alignStart="@+id/pull_to_refresh_updated_at"
+            android:layout_marginLeft="20dp"
+            android:indeterminate="true"
+            android:src="@drawable/device_connectioning_progressbar_bg"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/pull_to_refresh_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/textWhite"
+            android:gravity="center"
+            android:text="@string/pull_to_refresh_tap_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/pull_to_refresh_updated_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pull_to_refresh_text"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/textWhite"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:visibility="gone"/>
+        <ImageView
+            style="@style/horizon_line"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line_gray" />
+    </RelativeLayout>
+
+</LinearLayout>

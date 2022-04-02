@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_ok">确定</string>
+    <string name="checknet_nonet_to_link">没有可用的网络,请开启GPRS或WIFI网络连接</string>
+    <string name="btn_cancel">取消</string>
+    <string name="diagnose_history_prompt_norecord_tv">没有记录</string>
+    <string name="listview_loadmore">点击显示更多</string>
+</resources>

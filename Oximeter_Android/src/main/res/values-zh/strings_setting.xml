@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="spo2_setting">SPO2</string>
+    <string name="pi">PI</string>
+    <string name="resp">RESP</string>
+
+    <string name="toplimit">上限</string>
+    <string name="lowlimit">下限</string>
+
+    <string name="setting_logout"> 退出登录 </string>
+    <string name="setting_alarm"> 报警设置 </string>
+
+    <string name="account_exist_code"> 账号已经存在 </string>
+    <string name="account_management"> 账号管理 </string>
+    <string name="account_login_position"> 在本机登录 </string>
+    <string name="add_new_account"> 添加账号 </string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="58dp"
+    android:background="@color/bgTitle"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ly_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/ib_title_left"
+            style="@style/ImageButtonStyleBgUnsel"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/titlebar_btn_left_sl"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/ib_title_right"
+            style="@style/ImageButtonStyleBgUnsel"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/first_title_btn_right"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_title_left"
+            android:layout_width="58dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/titlebar_btn_back_sl"
+            android:textColor="@color/textWhite"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_title_right"
+            android:layout_width="58dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/titlebar_btn_right_sl"
+            android:textColor="@color/textWhite"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/tv_title_relative_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            >
+            <!--android:layout_marginLeft="90dp"-->
+            <!--android:layout_marginRight="90dp" -->
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/textWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/tv_title_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_title"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/tv_title_image_bg_sl"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical|end"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="@drawable/user_tv_title_right_sl"
+            android:textSize="22sp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/title_progessbar"
+            style="@style/TitleProgressBar"
+            android:layout_toLeftOf="@+id/tv_title_right"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/progress_rotate"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
