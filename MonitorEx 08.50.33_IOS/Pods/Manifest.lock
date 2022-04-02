@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - libxlsxwriter (0.8.4)
+
+DEPENDENCIES:
+  - Charts (= 3.2.1)
+  - libxlsxwriter (= 0.8.4)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Charts
+    - libxlsxwriter
+
+SPEC CHECKSUMS:
+  Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
+  libxlsxwriter: f768360e0809308e1b48150bd0601fa2dc9a8345
+
+PODFILE CHECKSUM: 5163e5bf77baae3dbd1bf7e89626a9f6dfd81d64
+
+COCOAPODS: 1.8.4
