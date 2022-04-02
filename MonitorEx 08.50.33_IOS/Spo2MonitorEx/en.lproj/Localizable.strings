@@ -1,0 +1,202 @@
+/* 
+  Localizable.strings
+  Spo2MonitorEx
+
+  Created by luteng on 2018/12/17.
+  Copyright © 2018年 kim. All rights reserved.
+*/
+"language" = "english";
+/* 设备名 */
+"OXIMETER"= "HealthTree";
+"wearcare"= "wearcare";
+"Home_DeviceConnected"= "Device connected";
+"Home_State_Disconnected"= "Device disconnected";
+"Home_State_Searching"= "Searching device...";
+"Home_State_NoSupport"= "Device unsupported Bluetooth 4.00";
+"Home_State_PowerOff"= "Bluetooth is off";
+"Device_Name"= "Device name";
+"Brand"= "Brand";
+"Model"= "Model";
+"Serial_Number"= "Serial number";
+"Firmware_Version"= "Firmware version";
+"Remarks"= "Remarks";
+"Device_Infomation"= "Device details";
+"About_us"= "About us";
+"Setting"= "Setting";
+"Time"= "Time";
+"Select_device"= "Select device";
+"FirmSub_Version"= "Sub-firmware Version";
+/* 登录*/
+"Land_Exception" = "An unknown exception";
+"Land_Failed" = "Login failed";
+"Land_Success" = "login successfully";
+"Log_ChangePwd_Success" = "PWD successfully changed";
+"Log_Changing_pwd" = "change the password";
+"Log_Determine_Email_Success" = "E-mail sent, pls check";
+"Log_Get_Email_Code" = "Sending a message";
+"Login_Confirm_Error" = "Confirm password is incorrect";
+"Login_Confirm_New_Password" = "Confirm the new password";
+"Login_Confirm_Password" = "confirm password";
+"Login_Congratulations" = "Congratulation";
+"Login_Determine" = "Confirmed";
+"Login_Email_Address" = "email address";
+"Login_Forget_Password" = "forget password?";
+"Login_Get_Verfication_Code" = "Getting email authentication info";
+"Login_login" = "log in";
+"Login_Logining" = "logging in";
+"Login_New_Password" = "new password";
+"Login_Old_Password" = "old password";
+"Login_password" = "password";
+"Login_Please_InputConfirm" = "Please confirm your password";
+"Login_Please_InputEmail" = "Please input the correct email address";
+"Login_Please_InputNewPassword" = "Please enter a new password";
+"Login_Please_InputOldPwd" = "Please enter your old password";
+"Login_Please_InputPassword" = "Please enter your password";
+"Login_Register" = "registered";
+"Login_Register_Succss" = "Mail registration success! Please verify mailbox!";
+"Login_Registering" = "Registering";
+"Login_Rest_Password" = "change the password";
+//ADD
+"Add_Please_InputName" = "Please enter your name";
+"Add_Saving" = "Saving";
+"Alert_Failure" = "Failed with an unknown exception";
+//FAMILY
+"Family_Add_Action" = "Add";
+"Family_AddFamily_Member" = "Add members";
+"Family_Addmem_Fail" = "Add failed";
+"Family_Addmem_Success" = "Added successfully";
+"Family_Age" = "Age";
+"Family_Alert_Emptied" = "Warning: All records will be cleared";
+"Family_Alert_Really" = "Really want to remove this user?";
+"Family_Avatar" = "Head portrait";
+"Family_BirthDay" = "Birthday";
+"Family_Change_Avatar" = "Modify avatar";
+"Family_Delete_Success" = "Successfully deleted";
+"Family_Edit_End" = "Complete";
+"Family_Editing" = "Edit";
+"Family_EditUser" = "Edit User";
+"Family_Female" = "Female";
+"Family_From_Album" = "Obtain from album";
+"Family_Gender" = "Gender";
+"Family_Height" = "Height";
+"Family_Male" = "Male";
+"Family_Mem_Adding" = "Add family members";
+"Family_Member_List" = "Family members";
+"Family_Name" = "Name";
+"Family_No_Member" = "Do not add family members";
+"Family_Photograph" = "Photograph";
+"Family_Remove_Member" = "Remove member";
+"Family_Update" = "Update";
+"Family_Update_Fail" = "Update failed";
+"Family_Updating" = "Updating";
+"Family_Weight" = "Weight";
+"Family_Please_Select_Mem"="Choose one family member";
+//alarm
+"AlarmSetup"="System Setting";
+"OxygenSetup"="SPO2";
+"PulseRate"="PR";
+"PerfusionIndex"="PI";
+"SP02Hight"="Sp02 Hight";
+"SP02LOW"="Sp02 Low";
+"PRHight"="Pulse Rate Hight";
+"PRLOW"="Pulse Rate Low";
+"PIHight"="PI Hight";
+"PILOW"="PI Low";
+//GUID
+"Guide_Network" = "Network Error";
+//HEIGHT
+"Height_Unit_CM" = "Cm";
+"Height_Unit_IN" = "In";
+//MORE
+"More_Picker" = "Please choose";
+//SYS
+"Service_UpdateFailed" = "Update failed";
+"Service_UpdateSuccess" = "Update completed";
+"Service_UploadFailed" = "Upload failed";
+"Service_Uploading" = "Uploading";
+"Service_UploadSuccess" = "Upload successful";
+"Sys_Cancel" = "Cancel";
+"Sys_Ok" = "Confirmed";
+"Sys_Tips" = "Tip";
+//WEIGHT
+"Weight_Unit_KG" = "Kg";
+"Weight_Unit_LB" = "Lb";
+
+"Done" ="Done";
+"HeightUnit"="Height Unit";
+"WeightUnit"="Weight Unit";
+"Layout_Failed"="Exit failed";
+"Layout_Exception"="Exit failed with an unknown exception";
+"Layout_WithoutLogin"="Invalid Login";
+"Layout"="Log out";
+"Login_Logouting"="Exiting";
+"Pull_down_reflash"="You can refresh by dropping down";
+"Relax_reflashing"="Refreshed instantly when loosening";
+"Data_reflashing"="Data refreshing ..";
+"Last_reflash"="Latest updating";
+//error_code
+"Alert_Access" ="Appearing abnormal when getting data";
+"Alert_Data" = "Data anomalies";
+"Alert_Unknown" = "Unknown exception";
+"Alert_Incorrectly"="Entered incorrectly";
+"Alert_Unknown"="Unknown exception";
+"Alert_Replace"="Account has been registered, please replace another Account Name";
+"Alert_Banned"= "Illegal account, the account was banned";
+"Alert_Exist"="Account does not exist";
+"Alert_BadPassword"="Wrong username or password";
+"Alert_Unable"="Unable to get permission";
+"Alert_Nickname"="The presence of dirty nickname or presentation, please check and replace";
+"Alert_Registered"="E-mail has already registered";
+"Alert_Analytical"="Parsing error";
+"Alert_Wrong"="E-mail does not exist";
+"Alert_Nonexistent"= "Data does not exist";
+"Alert_Family"="Not the family members of this user";
+"Alert_Synchronization"="Sync has been locked";
+"Alert_Occured"="An exception occurred while parsing or updating data";
+"Alert_Database"="Database Exceptions";
+"Alert_Pictures"="This image is not uploaded by members";
+"Alert_haveRegister"="The phone number has already registered, please login";
+"Alert_SendSMSFailed"="Fail to send SMS verification code";
+"Alert_GenerationFailed"="Fail to generate SMS verification code";
+"Alert_PhoneNotRegistered"="Phone number has not been registered";
+"Alert_Identification"="Wrong ID";
+"Alert_Display"="The correct number is not within the display range";
+"Alert_Page"="Page Error";
+"Alert_Sex"="Wrong gender";
+"Alert_String"="Error string, the string can not be empty";
+"Alert_Filled"="Filled in wrongly";
+"Alert_Resolution"="Geocoding error";
+"Alert_InformationError"="Information Exception Error";
+"Alert_IncorrectPhone"="Wrong phone number";
+"Alert_RequestFrequently"="Requests too frequently";
+"Alert_CaptchaError"="Verification code error";
+"Alert_CaptchaDue"="Verification code expired";
+"Alert_PwdNotRequirment"="Password does not meet requirements";
+"Alert_SMSTypeNotCorrent"="SMS verification code type is not correct";
+"Alert_HasLogined"="Account has already logged";
+//review
+"Review_No_PrData" = "No PR data today";
+"Review_No_Data"="No data";
+"Review_No_Spo2Data"="No SpO2 data today";
+"Review_Spo2Trend_Data"="SpO2 trend data";
+"Review_PrTrend_Data"="PR trend data";
+"Week_Sun" = "Sun";
+"Week_Mon" = "Mon";
+"Week_Tue" = "Tue";
+"Week_Wen" = "Wen";
+"Week_Thu" = "Thu";
+"Week_Fri" = "Fri";
+"Week_Sat" = "Sat";
+"Spo2_Low_Saturation" = "Low saturation limit";
+"Historical_Data" = "Historical Data";
+"Cancel_sending_Email" = "Cancel Sending Email";
+"Save_Email_Successfully" = "Save Email Successfully";
+"Send_Email_Successfully" = "Send Email Successfully";
+"Send_Email_Failed" = "Send Email Failed";
+"Send_PDF_Failed" = "Send PDF Failed";
+"No_apps_top_open" = "There are no apps to open";
+"Historical_Record" = "Historical Data";
+"Other_applications" = "Other applications";
+"Open_Email" = "Email";
+"Review_Export" = "Export";
+"Unconnected_device" = "Unconnected device";
