@@ -1,0 +1,202 @@
+/* 
+  Localizable.strings
+  Spo2MonitorEx
+
+  Created by luteng on 2018/12/17.
+  Copyright © 2018年 kim. All rights reserved.
+*/
+"language" = "zh-Hans";
+/* 设备名 */
+"OXIMETER"                  = "智能血氧";
+"wearcare"                  = "微康";
+"Home_DeviceConnected"      = "设备已连接";
+"Home_State_Disconnected"   = "设备已断开";
+"Home_State_Searching"      = "搜索设备中...";
+"Home_State_NoSupport"      = "设备不支持蓝牙4.0";
+"Home_State_PowerOff"       = "系统蓝牙未开启";
+"Device_Name"               = "设备名";
+"Brand"                     = "品牌";
+"Model"                     = "型号";
+"Serial_Number"             = "序列号";
+"Firmware_Version"          = "固件版本";
+"Remarks"                   = "备注";
+"Device_Infomation"         = "设备详情";
+"About_us"                  = "关于我们";
+"Setting"                   = "设置";
+"Time"                      = "时间";
+"Select_device"             ="选择设备";
+"FirmSub_Version"           ="从固件版本";
+/* 登录*/
+"Land_Exception" = "发生未知异常";
+"Land_Failed" = "登录失败";
+"Land_Success" = "登录成功";
+"Log_ChangePwd_Success" = "密码更改成功";
+"Log_Changing_pwd" = "更改密码";
+"Log_Determine_Email_Success" = "邮件发送成功,请查收邮件";
+"Log_Get_Email_Code" = "正在发送邮件";
+"Login_Confirm_Error" = "确认密码有误";
+"Login_Confirm_New_Password" = "确认新密码";
+"Login_Confirm_Password" = "确认密码";
+"Login_Congratulations" = "恭喜";
+"Login_Determine" = "确定";
+"Login_Email_Address" = "邮箱地址";
+"Login_Forget_Password" = "忘记密码?";
+"Login_Get_Verfication_Code" = "获取邮箱验证信息";
+"Login_login" = "登录";
+"Login_Logining" = "正在登录";
+"Login_New_Password" = "新密码";
+"Login_Old_Password" = "旧密码";
+"Login_password" = "密码";
+"Login_Please_InputConfirm" = "请确认密码";
+"Login_Please_InputEmail" = "请输入正确的邮箱地址";
+"Login_Please_InputNewPassword" = "请输入新密码";
+"Login_Please_InputOldPwd" = "请输入旧密码";
+"Login_Please_InputPassword" = "请输入密码";
+"Login_Register" = "注册";
+"Login_Register_Succss" = "邮箱注册成功!请验证邮箱!";
+"Login_Registering" = "正在注册";
+"Login_Rest_Password" = "更改密码";
+//ADD
+"Add_Please_InputName" = "请输入姓名";
+"Add_Saving" = "正在保存";
+"Alert_Failure" = "失败，发生未知异常";
+//FAMILY
+"Family_Add_Action" = "添加";
+"Family_AddFamily_Member" = "请添加家庭成员";
+"Family_Addmem_Fail" = "添加失败";
+"Family_Addmem_Success" = "添加成功";
+"Family_Age" = "岁";
+"Family_Alert_Emptied" = "警告：所有记录将会清空";
+"Family_Alert_Really" = "真的要删除此用户？";
+"Family_Avatar" = "头像";
+"Family_BirthDay" = "出生日期";
+"Family_Change_Avatar" = "修改头像";
+"Family_Delete_Success" = "删除成功";
+"Family_Edit_End" = "完成";
+"Family_Editing" = "编辑";
+"Family_EditUser" = "编辑用户";
+"Family_Female" = "女";
+"Family_From_Album" = "从相册获取";
+"Family_Gender" = "性别";
+"Family_Height" = "身高";
+"Family_Male" = "男";
+"Family_Mem_Adding" = "添加家庭成员";
+"Family_Member_List" = "家庭成员";
+"Family_Name" = "姓名";
+"Family_No_Member" = "没有添加家庭成员";
+"Family_Photograph" = "拍照";
+"Family_Remove_Member" = "删除成员";
+"Family_Update" = "更新";
+"Family_Update_Fail" = "更新失败";
+"Family_Updating" = "正在更新";
+"Family_Weight" = "体重";
+"Family_Please_Select_Mem"="请选择一位家庭成员";
+//alarm
+"AlarmSetup"="报警设置";
+"OxygenSetup"="血氧饱和度";
+"PulseRate"="脉搏率";
+"PerfusionIndex"="血流灌注指数";
+"SP02Hight"="血氧饱和度 上阈值";
+"SP02LOW"="血氧饱和度 下阈值";
+"PRHight"="脉搏率 上阈值";
+"PRLOW"="脉搏率 下阈值";
+"PIHight"="血流灌注指数 上阈值";
+"PILOW"="血流灌注指数 下阈值";
+//GUID
+"Guide_Network" = "网络错误";
+//HEIGHT
+"Height_Unit_CM" = "Cm";
+"Height_Unit_IN" = "In";
+//MORE
+"More_Picker" = "请选择";
+//SYS
+"Service_UpdateFailed" = "更新失败";
+"Service_UpdateSuccess" = "更新成功";
+"Service_UploadFailed" = "上传失败";
+"Service_Uploading" = "正在上传";
+"Service_UploadSuccess" = "上传成功";
+"Sys_Cancel" = "取消";
+"Sys_Ok" = "确定";
+"Sys_Tips" = "提示";
+//WEIGHT
+"Weight_Unit_KG" = "Kg";
+"Weight_Unit_LB" = "Lb";
+//
+"Done" ="完成";
+"HeightUnit"="身高单位";
+"WeightUnit"="体重单位";
+"Layout_Failed"="退出失败";
+"Layout_Exception"="退出失败，发生未知异常";
+"Layout_WithoutLogin"="无效登陆";
+"Layout"="退出登录";
+"Login_Logouting"="正在退出";
+"Pull_down_reflash"="下拉可以刷新了";
+"Relax_reflashing"="松开马上刷新了";
+"Data_reflashing"="数据刷新中...";
+"Last_reflash"="最后更新";
+//error_code
+"Alert_Access" ="获取数据出现异常";
+"Alert_Data" = "数据异常";
+"Alert_Unknown" = "未知异常";
+"Alert_Incorrectly"="输入有误";
+"Alert_Unknown"="未知的异常";
+"Alert_Replace"="账户已经被注册，请更换其他账户名称";
+"Alert_Banned"= "账户非法，账户被禁止使用";
+"Alert_Exist"="账户不存在";
+"Alert_BadPassword"="用户名或密码错误";
+"Alert_Unable"="无法获取权限";
+"Alert_Nickname"="昵称或者介绍中存在脏字，请检查和替换";
+"Alert_Registered"="邮箱已经被注册";
+"Alert_Analytical"="解析出错";
+"Alert_Wrong"="邮箱不对或不存在";
+"Alert_Nonexistent"= "数据不存在";
+"Alert_Family"="不是此用户的家庭成员";
+"Alert_Synchronization"="同步已被锁住";
+"Alert_Occured"="解析或更新数据时发生异常";
+"Alert_Database"="数据库异常";
+"Alert_Pictures"="不是此会员上传的图片";
+"Alert_haveRegister"="该手机号已注册，请直接登录";
+"Alert_SendSMSFailed"="发送短信验证码失败";
+"Alert_GenerationFailed"="生成短信验证码失败";
+"Alert_PhoneNotRegistered"="手机号尚未注册";
+"Alert_Identification"="ID错误";
+"Alert_Display"="显示数量不在正确的范围之内";
+"Alert_Page"="页码出错";
+"Alert_Sex"="性别错误";
+"Alert_String"="字符串错误，字符串不能为空";
+"Alert_Filled"="Email填写错误";
+"Alert_Resolution"="地址解析错误";
+"Alert_InformationError"="信息异常错误";
+"Alert_IncorrectPhone"="手机号码有误";
+"Alert_RequestFrequently"="请求过于频繁";
+"Alert_CaptchaError"="验证码错误";
+"Alert_CaptchaDue"="验证码过期";
+"Alert_PwdNotRequirment"="密码不符合要求";
+"Alert_SMSTypeNotCorrent"="短信验证码类型不是正确";
+"Alert_HasLogined"="账号已经登录";
+//review
+"Review_No_PrData" = "暂无数据提供";
+"Review_No_Data"="今天还未测量";
+"Review_No_Spo2Data"="暂无数据提供";
+"Review_Spo2Trend_Data"="SpO2趋势数据";
+"Review_PrTrend_Data"="PR趋势数据";
+"Week_Sun" = "周日";
+"Week_Mon" = "周一";
+"Week_Tue" = "周二";
+"Week_Wen" = "周三";
+"Week_Thu" = "周四";
+"Week_Fri" = "周五";
+"Week_Sat" = "周六";
+"Spo2_Low_Saturation" = "低饱和度极限";
+"Historical_Data" = "历史数据";
+"Cancel_sending_Email" = "邮件发送取消";
+"Save_Email_Successfully" = "邮件保存成功";
+"Send_Email_Successfully" = "邮件发送成功";
+"Send_Email_Failed" = "发送邮件失败";
+"Send_PDF_Failed" = "生成PDF文件失败";
+"No_apps_top_open" = "没有应用可以打开";
+"Historical_Record" = "历史数据";
+"Other_applications" = "其他应用";
+"Open_Email" = "邮箱";
+"Review_Export" = "导出";
+"Unconnected_device" = "未连接设备";
